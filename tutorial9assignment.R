@@ -39,7 +39,9 @@ hashemiPlot <- function(obsData, style="base"){
 
 print("---------")
 print("successfully loaded 'hashemiPlot()' function")
-print("hashemiPlot(data, style) accepts two arguments. 'data' needs to be observed frequency data across a single variable (multiple categories. 'style' needs to be defined as 'base' (default) or 'ggplot'")
+print("hashemiPlot(data, style) accepts two arguments.")
+print("'data' needs to be observed frequency data across a single variable (multiple categories.")
+print("'style' needs to be defined as 'base' (default) or 'ggplot'")
 print("---------")
 
 favData <- data.frame(ttest=83, ANOVA=51, RR=18, chisquare=15)
