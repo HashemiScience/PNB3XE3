@@ -49,3 +49,4 @@ data6 <- data.frame(subj = factor(rep(1:10,times=4),label="s"),
                            rnorm(10, mean=135, sd=15)))
 
 print("data6 loaded successfully")
+
