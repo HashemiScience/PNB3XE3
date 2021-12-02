@@ -47,7 +47,7 @@ print("---------")
 favData <- data.frame(ttest=83, ANOVA=51, RR=18, chisquare=15)
 
 print("successfully loaded 'favData' dataset")
-print("favData contains data on how frequently PNB 3XE3 rated a family of tests as their favourite test")
+print("favData contains data on how many PNB 3XE3 students rated a family of tests as their favourite test")
 print("---------")
 
 
