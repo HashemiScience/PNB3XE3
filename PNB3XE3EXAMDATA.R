@@ -40,6 +40,15 @@ examDataset66 <- data.frame(congruence=rep(c("congruent","incongruent"),each=4,t
                                           rnorm(8, 25, 2.7),
                                           rnorm(8, 26, 3.2)),1))
 
+set.seed(20211222)
+examDataset13 <- data.frame(subj=factor(rep(1:19,times=3),label="s"),
+                            colour=factor(rep(c("green","red","blue"), each=19, times=1)), 
+                            rt=c(sample(450:650,19), sample(450:750,19), sample(450:650,19)))
+
+examDataset96 <- data.frame(subj=factor(rep(1:21,times=3),label="s"),
+                            colour=factor(rep(c("green","red","blue"), each=21, times=1)), 
+                            rt=c(sample(450:675,21), sample(450:700,21), sample(450:675,21)))
+
 print("---------")
 print("success! data loaded!")
 print("now let's kick some butt!")
