@@ -51,7 +51,7 @@ examDataset96 <- data.frame(subj=factor(rep(1:21,times=3),label="s"),
 
 print("---------")
 print("success! data loaded!")
-print("now let's kick some butt!")
+print(paste("now let's kick some butt,",Sys.info()[["user"]]))
 print("---------")
 
 
