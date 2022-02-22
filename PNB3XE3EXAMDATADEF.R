@@ -20,6 +20,12 @@ examDataset29 <- data.frame(program=factor(rep(1:4,each=9),label="p"),
                                     rnorm(9,6.4,1),
                                     rnorm(9,6.1,1)))
 
+examDataset24 <- data.frame(program=factor(rep(1:4,each=9),label="p"),
+                            score=c(rnorm(9,4.5,1),
+                                    rnorm(9,5.6,1),
+                                    rnorm(9,6.3,1),
+                                    rnorm(9,6.0,1)))
+
 set.seed(20211222)
 examDataset88 <- data.frame(congruence=rep(c("congruent","incongruent"),each=4,times=4),
                             stress=rep(c("none","low","medium","high"), each=8,times=1),
