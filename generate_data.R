@@ -1,4 +1,4 @@
-set.seed(20220518)
+set.seed(20220525)
 conData <- data.frame(adolescence=abs(round(rnorm(25,2,1))), teens=abs(round(rnorm(25,2.2,2))))
 
 set.seed(20220518)
