@@ -1,6 +1,6 @@
-# Data generation script for PNB 3XE3 Tutorial 9
+# Data generation script for PNB 3XE3 Final tutorial
 
-# so we're all working with the same data, let's set the seed so the same random numbers are generated for everyone. It's important that everything in this script runs in the same order with no intervening lines of code, otherwise it may through off the random number generater sequence!
+# so we're all working with the same data, let's set the seed so the same random numbers are generated for everyone. It's important that everything in this script runs in the same order with no intervening lines of code, otherwise it may through off the random number generator sequence!
 set.seed(20211201)
 print("seed successfully set to 20211201")
 
