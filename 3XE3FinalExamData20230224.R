@@ -1,0 +1,29 @@
+set.seed(20221214)
+
+fearData = data.frame(child=c(rep("no_distraction",14), rep("novel_distraction",14)), cortisol=c(runif(14,20,38), runif(14,19,38)))
+
+
+emotionData <- data.frame(program=factor(rep(1:4,each=25),label="p"),
+                            score=c(rnorm(25,4.7,1.1),
+                                    rnorm(25,5.8,1.05),
+                                    rnorm(25,6.3,.98),
+                                    rnorm(25,6.0,1.2)))
+
+##
+
+vigData <- data.frame(vigilance=rep(c("low","high"),each=4,times=2),
+                            animal=rep(c("prey","predatory"), each=8,times=1),
+                            score=round(c(rnorm(8, 20, 2),
+                                          rnorm(8, 23, 2.1),
+                                          rnorm(8, 28, 2.7),
+                                          rnorm(8, 32, 3.2)),1))
+
+##
+
+readingData <- data.frame(subj=factor(rep(1:17,times=3),label="s"),colour=factor(rep(c("green","red","blue"), each=17, times=1)), rt=c(sample(450:650,17), sample(450:750,17), sample(500:750,17)))
+
+
+print("---------")
+print("success! data loaded!")
+print(paste("now let's kick some butt,",Sys.info()[["user"]]))
+print("---------")
