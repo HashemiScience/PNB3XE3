@@ -1,1 +1,0 @@
-set.seed(20230517)narci <- data.frame(younger=c(abs(round(rnorm(26,25,3))),rep(NA,6)), older=abs(round(rnorm(32,24,4))))set.seed(20230517)readLoud <- data.frame(BLACK=round(rnorm(14,mean=64,sd=3)), RED=round(rnorm(14,mean=60,sd=3)))
